@@ -1,6 +1,9 @@
+introduction:
+
 This code controls a bipedal walking robot using six servo motors, three for each leg (hip, knee, and ankle). The robot performs a simple walking motion by lifting, moving forward, and placing down each leg in sequence. The code utilizes the Servo library to manage the servo motors, which are connected to an Arduino microcontroller. Below is a detailed description of the code, including its initialization, walking algorithm, and detailed function descriptions.
 
 Description
+
 The code is structured into several functions to manage the walking motion of the robot. It includes the setup and loop functions, which are standard in Arduino sketches, as well as custom functions to initialize servos, lift legs, move legs forward, place legs down, and shift weight between legs.
 
 Libraries and Servo Objects
